@@ -33,10 +33,10 @@
             }
 
             if(typeof resourceId !== 'undefined' && typeof subject !== 'undefined') {
-                return 'http://' + this.subdomain + this.zApi + locale + resource + '/' + resourceId + '/' + subject + '.json';
+                return 'https://' + this.subdomain + this.zApi + locale + resource + '/' + resourceId + '/' + subject + '.json';
             }
 
-            return 'http://' + this.subdomain + this.zApi + locale + resource + '.json';
+            return 'https://' + this.subdomain + this.zApi + locale + resource + '.json';
         },
 
         /**
