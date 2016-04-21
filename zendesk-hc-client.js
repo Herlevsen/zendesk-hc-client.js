@@ -83,7 +83,7 @@
         /**
          * Get all articles within a specific category
          *
-         * @param  {number}   categoryId    categoryId Id of the category
+         * @param  {number}   categoryId    Id Id of the category
          * @param  {Function} callback      Callback function to call when the response has been received
          * @return {void}
          */
@@ -92,7 +92,7 @@
         },
 
         /**
-         * Get all articles in a specific category
+         * Get all articles in a specific section
          *
          * @param  {number}   sectionId     Id of the section
          * @param  {Function} callback      Callback function to call when the response has been received
